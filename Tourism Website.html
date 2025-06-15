@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1>Welcome</h1>
+                <p>Select ur destination</p>
+                <button class="btn btn-outline-primary button" onclick="display('sectionDestinationPlaces')">Hit Me</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionDestinationPlaces">
+        <div class="bg-containerplaces">
+            <h1 class="heading">Favourite Paces</h1>
+            <div class="placesContainer d-flex flex-row" onclick="display('sectionGoa')">
+                <div>
+                    <a href="https://en.wikipedia.org/wiki/Goa">
+                        <h1 class="placesHeading">Goa</h1>
+                    </a>
+                    <p><a href="https://en.wikipedia.org/wiki/Goa">Goa</a> is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations...</p>
+                </div>
+                <a href="https://en.wikipedia.org/wiki/Goa"><img src="https://res.cloudinary.com/drjv0i1nn/image/upload/v1749924059/goa-overview_jxw9zu.jpg" class="image"></a>
+            </div>
+            <div class="placesContainer d-flex flex-row" onclick="display('sectionAndamanandNicobar')">
+                <div>
+                    <a href="https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands">
+                        <h1 class="placesHeading">Andaman and Nicobar Islands</h1>
+                    </a>
+                    <p>The <a href="https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands">Andaman and Nicobar Islands</a> is a union territory of India comprising 572 islands, of which only 38 are inhabited. The islands are grouped into two main clusters: the northern Andaman Islands and the southern Nicobar Islands, separated by a 150 km wide channel.</p>
+                </div>
+                <a href="https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands"><img src="https://res.cloudinary.com/drjv0i1nn/image/upload/v1749925291/INTRO_TO_ANDAMAN_NICOBAR_hgxf1y.jpg" class="image"></a>
+            </div>
+            <div class="placesContainer d-flex flex-row" onclick="display('sectionPondicherry')">
+                <div>
+                    <a href="https://en.wikipedia.org/wiki/Pondicherry">
+                        <h1 class="placesHeading">Pondicherry</h1>
+                    </a>
+                    <p><a href="https://en.wikipedia.org/wiki/Pondicherry">Pondicherry</a> Pondicherry (or Puducherry), a French colonial settlement in India until 1954, is now a Union Territory town bounded by the southeastern Tamil Nadu state. Its French legacy is preserved in its French Quarter, with tree-lined streets, mustard-colored colonial villas and chic boutiques.</p>
+                </div>
+                <a href="https://en.wikipedia.org/wiki/Pondicherry"><img src="https://res.cloudinary.com/drjv0i1nn/image/upload/v1749925654/960px-Pondicherry-Rock_beach_aerial_view_geuj9r.jpg" class="image"></a>
+            </div>
+        </div>
+        <div class="text-center" onclick="display('sectionHome')">
+            <button class="btn btn-outline-primary button">Back</button>
+        </div>
+    </div>
+    <div id="sectionGoa">
+
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

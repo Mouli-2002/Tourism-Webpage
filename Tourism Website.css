@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/drjv0i1nn/image/upload/v1748024473/types-of-tourism_gscaqr.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.tourism-card {
+    background-color: white;
+    text-align: center;
+    font-family: Times New Roman;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-bottom: 30px;
+}
+
+.button {
+    width: 100px;
+    border-radius: 20px;
+}
+
+.heading {
+    font-family: Times New Roman;
+    color: white;
+    padding: 15px;
+}
+
+.bg-containerplaces {
+    background-image: url("https://res.cloudinary.com/drjv0i1nn/image/upload/v1748024473/types-of-tourism_gscaqr.jpg");
+
+    background-size: cover;
+    padding: 15px;
+}
+
+.placesContainer {
+    background-color: white;
+    width: 92vw;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.image {
+    width: 120px;
+    height: 180px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.placesHeading {
+    font-size: 25px;
+}
